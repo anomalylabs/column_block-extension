@@ -1,1 +1,5 @@
-{{ block.content.render()|raw }}
+{{ asset_add("styles.css", "anomaly.extension.column_block::scss/block.scss") }}
+
+<div class="column">
+    {{ block.content.render()|raw }}
+</div>

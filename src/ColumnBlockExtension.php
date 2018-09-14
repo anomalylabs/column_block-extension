@@ -29,6 +29,13 @@ class ColumnBlockExtension extends BlockExtension
     protected $view = 'anomaly.extension.column_block::content';
 
     /**
+     * The block wrapper.
+     *
+     * @var string
+     */
+    protected $wrapper = 'anomaly.extension.column_block::wrapper';
+
+    /**
      * The block model.
      *
      * @var string

@@ -11,6 +11,7 @@ return [
             'two_thirds'     => '2/3',
             'one_quarter'    => '1/4',
             'three_quarters' => '3/4',
+            'full_width'     => 'Full Width',
         ],
     ],
 ];
