@@ -1,9 +1,19 @@
 <?php
 
 return [
-    'section' => [
+    'options' => [
+        'stacked' => true,
+        'tabs'    => [
+            'style' => [
+                'title'  => 'anomaly.extension.section_block::tab.style',
+                'fields' => [
+                    'configuration_width',
+                ],
+            ],
+        ],
+    ],
+    'content' => [
         'fields' => [
-            'configuration_width',
             'entry_content',
         ],
     ],
