@@ -14,6 +14,13 @@ class ColumnBlockExtension extends BlockExtension
 {
 
     /**
+     * The block category.
+     *
+     * @var string
+     */
+    protected $category = 'structural';
+
+    /**
      * This extension provides a column
      * block for the blocks module.
      *
